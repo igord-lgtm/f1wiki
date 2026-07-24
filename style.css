@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  width: 80%;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  padding: 1rem;
+}
+.ul_nav {
+  width: 30%;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.f1wikilogo {
+  width: 15%;
+  height: auto;
+}
+.li_ul_nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 80%;
+  width: 30%;
+  border-left: solid black 2px;
+}
+.a_li_ul_nav {
+  text-decoration: none;
+  color: black;
+}
+.img_li_ul_nav {
+  width: 25%;
+}
+#tosmall {
+  width: 45%;
+}
